@@ -61,7 +61,7 @@ class Home extends React.Component{
     }
     submit() { 
         var checkEmail = true , checkPhone = true
-        alert("Name: "+ this.state.name + "Phone: " +this.state.phone + "email: " + this.state.email);
+        alert("(Name: "+ this.state.name + ") (Phone: " +this.state.phone + ") (email: " + this.state.email) + ")";
         
         let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if ( !re.test(this.state.email) ){
