@@ -5,7 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Instructions 
 
 git clone the project
+
 cd src
+
 npm start
 
 After these instructions, local host web will appear 
